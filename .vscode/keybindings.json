@@ -1,0 +1,47 @@
+[
+  {
+    "key": "ctrl+alt+-",
+    "command": "workbench.action.navigateBack",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+=",
+    "command": "workbench.action.navigateForward",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "cursorUndo",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "cursorRedo",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "workbench.action.navigateBack",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "workbench.action.navigateForward",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+q",
+    "command": "workbench.action.navigateToLastEditLocation",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
