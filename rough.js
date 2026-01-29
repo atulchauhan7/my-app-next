@@ -52,3 +52,4 @@ var firstMissingPositive = function(nums) {
     return n + 1;
 };
 console.log(firstMissingPositive([3,4,-1,1]));
+console.log(firstMissingPositive([3,4,-1,1]));
